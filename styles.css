@@ -15,7 +15,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-top: 16px;
 }
 
@@ -33,7 +33,8 @@ ul {
 }
 
 a,
-.sect1-text {
+.sect1-text,
+.c2a-signup {
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
@@ -62,7 +63,7 @@ a,
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .second-container {
@@ -84,7 +85,7 @@ a,
   justify-content: center;
   align-items: center;
   flex: 0 0 100%;
-  height: 300px;
+  height: 400px;
 }
 
 .sect1-info {
@@ -166,6 +167,39 @@ button.sign-up {
   flex-direction: row-reverse;
   font-size: 18px;
   font-weight: 500;
+}
+
+.c2a-container {
+  background: #3882F6;
+  width: 1400px;
+  height: 100px;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.s4-header,
+.s4-text {
+  color: white;
+}
+
+.s4-header {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.s4-text {
+  font-size: 24px;
+}
+
+.c2a-signup {
+  background: #3b82f6;
+  border: 2px solid #ffffff;
+  font-weight: 600;
+  padding: 8px 28px;
+  font-size: 24;
 }
 
 .footer {

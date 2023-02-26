@@ -105,7 +105,9 @@ a,
 }
 
 button {
-  padding: 8px 16px;
+  font-weight: 600;
+  padding: 8px 28px;
+  font-size: 21px;
   border-radius: 8px;
 }
 
@@ -113,6 +115,12 @@ button.sign-up {
   background: #3882F6;
   border: 1px solid #3882F6;
   color: white;
+}
+
+.sign-up:hover {
+  background: white;
+  border: 1px solid white;
+  color: #3882F6;
 }
 
 .sect1-image {
@@ -197,10 +205,16 @@ button.sign-up {
 .c2a-signup {
   background: #3b82f6;
   color: white;
-  border: 2px solid #ffffff;
+  border: 2px solid white;
   font-weight: 600;
   padding: 8px 28px;
   font-size: 21px;
+}
+
+.c2a-signup:hover {
+  background: white;
+  border: 2px solid white;
+  color: #3b82f6;
 }
 
 .footer {

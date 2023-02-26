@@ -7,7 +7,7 @@ body {
 }
 
 .header,
-.hero,
+.first-container,
 .footer {
   background-color: #1F2937;
   color: white;
@@ -57,21 +57,56 @@ a {
   flex: 0 0 100%;
 }
 
-.hero-header {
+.first-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sect1-info {
   width: 480px;
   border-radius: 10px;
-  display: flex;
   gap: 16px;
   padding: 16px;
 }
 
-.h1 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 18px;
-  font-weight: 700;
+.sect1-h1 {
+  font-size: 48px;
+  font-weight: bolder;
   margin-bottom: 8px;
+}
+
+.sect1-text {
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+button.sign-up {
+  background: #3882F6;
+  border: 1px solid #3882F6;
+  color: white;
 }
 
 .footer {
